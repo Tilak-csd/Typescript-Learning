@@ -34,3 +34,6 @@
 //     console.log("i amanother function");
     
 // })
+
+const a = ()=>{console.log("ehhlo");
+}

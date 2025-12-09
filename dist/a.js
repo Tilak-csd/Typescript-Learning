@@ -20,10 +20,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // // type inference -> number, string, boolean
 // const value = isLegal(12)
 // console.log(value);
-function runafteronse(fn) {
-    setTimeout(fn, 1000);
-}
-runafteronse(function () {
-    console.log("i amanother function");
-});
+// if not another funtion doesn't return dont return any type then give the type void 
+// function runafteronse(fn: ()=> void){
+//     setTimeout(fn, 1000)
+// }
+// runafteronse(function(){
+//     console.log("i amanother function");
+// })
+const a = () => {
+    console.log("ehhlo");
+};
 //# sourceMappingURL=a.js.map
