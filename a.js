@@ -1,7 +1,29 @@
 "use strict";
+// function msg(firstname:string, lastname:string, ag:number){
+//     console.log("Hello", firstname, lastname, ag);
 Object.defineProperty(exports, "__esModule", { value: true });
-function msg(firstname) {
-    console.log("Hello", firstname);
+// }
+// msg("99", "hkdfas", 11)
+// function sum(a:number, b:number):number {
+//     return a+b;
+// }
+// const value = sum(3, 6) 
+// console.log(value);
+// function isLegal(age:number):boolean{
+//     if(age >= 18){
+//         return true
+//     }
+//     else{
+//         return false
+//     }
+// }
+// // type inference -> number, string, boolean
+// const value = isLegal(12)
+// console.log(value);
+function runafteronse(fn) {
+    setTimeout(fn, 1000);
 }
-msg("99");
+runafteronse(function () {
+    console.log("i amanother function");
+});
 //# sourceMappingURL=a.js.map
