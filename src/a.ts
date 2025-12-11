@@ -73,3 +73,49 @@
 // });
 
 // enum - TypeScript
+
+// enum Direction {
+//     Up ="up", 
+//     Right ="right",
+//     Down = "down",
+//     Left = "left"
+// }
+
+// function dosomthing(keypressed : Direction){
+//     if(keypressed == Direction.Up){
+//         console.log(Direction.Up);
+//     }
+//     if(keypressed == Direction.Down){
+//         console.log(Direction.Down);
+//     }
+//     if(keypressed == Direction.Right){
+//         console.log(Direction.Right);
+//     }
+//     if(keypressed == Direction.Left){
+//         console.log(Direction.Left);
+//     }
+// }
+
+// dosomthing(Direction.Up)
+// dosomthing(Direction.Right)
+// dosomthing(Direction.Down)
+// dosomthing(Direction.Left)
+
+
+// Popular UseCase of enum in TypeScript
+// Express
+// const express = require("express")
+// const app = express()
+
+// enum Response{
+//     Success = 200,
+//     NotFound  = 404,
+//     Error = 500
+// }
+
+// app.get("/", (req, res)=>{
+//     if(!req.query.userId){
+//         res.status(Response.Error).json("Not nFound")
+//     }
+//     res.status(Response.Success).json(req.query)
+// })
